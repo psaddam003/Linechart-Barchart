@@ -1,0 +1,87 @@
+body{
+  padding:50px;
+  background:#fff;
+}
+.wrapper{
+  width:100%;
+}
+@media(max-width:992px){
+ .wrapper{
+  width:100%;
+} 
+}
+.panel-heading {
+  padding: 0;
+	border:0;
+}
+.panel-title>a, .panel-title>a:active{
+	display:block;
+	padding:15px;
+  color:#555;
+  font-size:16px;
+  font-weight:bold;
+	/* text-transform:uppercase; */
+	letter-spacing:1px;
+  word-spacing:3px;
+  text-decoration:none;
+  background-color: #fff;
+}
+.panel-heading  a:before {
+   font-family: 'Glyphicons Halflings';
+   content: "\e114";
+   float: right;
+   transition: all 0.5s;
+   background-color: #fff;
+}
+.panel-heading.active a:before {
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+
+
+.flex-container {
+  display: flex;
+  align-items: stretch;
+  /* background-color: #f1f1f1; */
+}
+
+.flex-container > div {
+  /* background-color: DodgerBlue; */
+  color: #000000;
+  margin: 10px;
+  text-align: center;
+  /* line-height: 75px; */
+  font-size: 15px;
+}
+
+.btn {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 10px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+/* Green */
+.success:hover {
+  color: #99FF33;
+}
+
+.success {
+  background-color: #99FF33;
+  color: white;
+}
+
+
+
+/* Orange */
+.warning:hover {
+  color: orange;
+}
+
+.warning {
+  background: #ff9800;
+  color: white;
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>line-chart-bar-chart</title>
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+
+<!-- partial:index.partial.html -->
+<div class="wrapper center-block">
+  <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+  <div class="panel panel-default">
+    <div class="panel-heading active" role="tab" id="headingOne">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          <div class="flex-container">
+            <div style="flex-grow: 6">March 2019</div>
+            <div style="flex-grow: 2">
+              <button class="btn success"></button>
+              Goal Achieve  4 days
+            </div>
+            <div style="flex-grow: 2"><button class="btn warning"></button>
+              Goal Not Achieve  3 days</div>
+          </div>
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+      
+        <div class="row panel-body">
+          <div class="col-sm-6" id="chartContainer" style="height: 250px; max-width: 500px; margin: 0px auto;">
+           
+          </div>
+          <div class="col-sm-6" id="chartContainer1" style="height: 250px; max-width: 500px; margin: 0px auto;">
+               
+          </div>
+        </div>
+
+      </div>
+    
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingTwo">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          <div class="flex-container">
+            <div style="flex-grow: 6">February 2020</div>
+            <div style="flex-grow: 2">
+              <button class="btn success"></button>
+              Goal Achieve  20 days
+            </div>
+            <div style="flex-grow: 2"><button class="btn warning"></button>
+              Goal Not Achieve  8 days</div>
+          </div>
+        </a>
+      </h4>
+    </div>
+    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+      <div class="row panel-body">
+        <div class="col-sm-6" id="chartContainer2" style="height: 250px; max-width: 550px; margin: 0px auto;">
+         
+        </div>
+        <div class="col-sm-6" id="chartContainer3" style="height: 250px; max-width: 550px; margin: 0px auto;">
+             
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingThree">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          <div class="flex-container">
+            <div style="flex-grow: 6">January 2019</div>
+            <div style="flex-grow: 2">
+              <button class="btn success"></button>
+              Goal Achieve  25 days
+            </div>
+            <div style="flex-grow: 2"><button class="btn warning"></button>
+              Goal Not Achieve  5 days</div>
+          </div>
+        </a>
+      </h4>
+    </div>
+    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+      <div class="row panel-body">
+        <div class="col-sm-6" id="chartContainer4" style="height: 250px; width: 600px; margin: 0px auto;">
+         
+        </div>
+        <div class="col-sm-6" id="chartContainer5" style="height: 250px; width: 600px; margin: 0px auto;">
+             
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+</div>
+</div>
+<!-- partial -->
+  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script><script  src="./script.js"></script>
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+</body>
+</html>
